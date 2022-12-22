@@ -1,0 +1,369 @@
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Roboto";
+  }
+  .menu-top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #dbdbdb;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 10;
+  }
+  .top-mobile {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    width: 100%;
+  }
+  .large {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 935px;
+    height: 54px;
+    top: 0;
+    left: 0;
+  }
+  
+  .logo-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .icone {
+    display: flex;
+    justify-content: space-around;
+  }
+  .icon {
+    font-size: 24px;
+    margin-left: 20px;
+  }
+  .linha-vertical {
+    height: 30px;
+    border-right: 1px solid #dbdbdb;
+    margin: 0 5px 7px 5px;
+  }
+  
+  hr {
+    height: 1px;
+    background-color: #dbdbdb;
+    border-width: 0;
+    width: 100%;
+  }
+  #divBusca {
+    background-color: #dbdbdb;
+  }
+  #txtBusca {
+    border: 1px solid #dbdbdb;
+    width: 215px;
+    height: 28px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #e7e7e7;
+  }
+  .corpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+  }
+  
+  .conteudo-principal {
+    width: 935px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 88px;
+    margin-left: 35px;
+  }
+  .conteudo-geral {
+    width: 614px;
+    height: 100%;
+  }
+  
+  .sidebar {
+    width: 293px;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+  }
+  .stories {
+    width: 614px;
+    height: 110px;
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .stories > ion-icon {
+    position: absolute;
+    color: gray;
+    background-color: white;
+    font-size: 25px;
+    right: 0;
+    top: 40px;
+    border-radius: 25px;
+  }
+  .stories > ion-icon:hover {
+    color: blue;
+  }
+  .stories div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    background-image: url("../img/borda-stories.png");
+    background-size: cover;
+    width: 65px;
+    height: 65px;
+    margin-top: 17px;
+  }
+  .img-stories {
+    width: 54px;
+    height: 54px;
+    border-radius: 28px;
+    margin: 0 6px;
+    margin-top: 24px;
+  }
+  .name-stories {
+    font-size: 12px;
+    margin-top: 12px;
+  }
+  .post {
+    width: 100%;
+    margin: 20px 0;
+  
+  }
+  .imgg-sidebar {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+  }
+  .side-1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .divNome {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  .divNome > p {
+    font-size: 14px;
+  }
+  .nome {
+    color: #262626;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .comentario {
+    color: #8e8e8e;
+  }
+  .side-2 {
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+  }
+  .gray-12 {
+    font-size: 12px;
+    color: #8e8e8e;
+  }
+  .bold-12 {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .side-3 {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .img-netflix {
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+  }
+  .nome-segue {
+    margin-left: 5px;
+    margin-top: 3px;
+  }
+  .side-3-collection {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .seguir {
+    color: #139ef2;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .info {
+    margin-top: 30px;
+  }
+  .info p {
+    font-size: 11px;
+    color: #c7c7c7;
+  }
+  .post {
+    margin-top: 25px;
+    background-color: white;
+    border: 1px solid #c7c7c7;
+    border-radius: 3px;
+  }
+  .nome-foto {
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+  }
+  .titulo-post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 50px;
+  }
+  .nome-foto p {
+    margin-left: 15px;
+  }
+  .media img {
+    width: 612px;
+    height: 612px;
+    object-fit: cover;
+  }
+  .icones-post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+  }
+  .icones-post ion-icon {
+    font-size: 20px;
+  }
+  .comentario-post {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+  }
+  .p-coment-post span {
+    font-weight: 700;
+  }
+  .foto-curtida {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+  }
+  .p-coment-post {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  .margem-entre-post {
+    margin-top: 60px;
+  }
+  .rodape-mobile {
+    height: 50px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 18px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+  }
+  .rodape-mobile ion-icon {
+    font-size: 21px;
+  }
+  @media (max-width: 935px) {
+    .sidebar {
+      display: none;
+    }
+    .conteudo-principal {
+      margin: 0 auto;
+      margin-top: 88px;
+      display: flex;
+      flex-direction: column
+      align-items: center;
+      justify-content: center;
+    }
+  
+  @media (max-width: 614px) {
+    .conteudo-geral {
+      margin: 0 auto;
+      width: 100vw;
+    }
+    .conteudo-principal {
+      margin-top: 0;
+      width: 100vw;
+    }
+    .corpo {
+      margin: 0 auto;
+      background-color: #f5f5f5;
+      width: 100vw;
+    }
+    .menu-top {
+      display: none;
+    }
+    .top-mobile {
+      display: flex;
+      position: fixed;
+      left: 0;
+      top: 0;
+      right: 0;
+      z-index: 10;
+      background-color: white;
+    }
+    .rodape-mobile {
+      display: flex;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      left:0;
+      z-index: 10;
+    }
+    .stories {
+      border: none;
+      margin: 0 auto;
+      background-color: #e5e5e5;
+      margin-top: 45px;
+      width: 100vw;
+    }
+    .stories ion-icon {
+      display: none;
+    }
+    .media img {
+      width: 100vw;
+    }
+    .post {
+      margin: 0 auto;
+    }
+    .media img {
+      object-fit:cover;
+    }
+    
+  }
